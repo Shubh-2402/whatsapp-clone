@@ -1,11 +1,14 @@
 import './App.css';
+import Chat from './Chat/Chat';
+import Sidebar from './Sidebar/Sidebar';
 
 function App() {
   return (
     <div className="app">
-      <h1>MERN Whatsapp Clone</h1>
-      {/* Sidebar */}
-      {/* Chat */}
+      <div className="app__body">
+        <Sidebar />
+        <Chat />
+      </div>
     </div>
   );
 }
